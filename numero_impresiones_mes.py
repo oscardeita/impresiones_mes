@@ -35,3 +35,4 @@ df = pd.DataFrame(resultados, columns=["Archivo", "Número de Impresiones"])
 
 # Guardar los resultados en un archivo Excel
 df.to_excel("resultado_impresiones.xlsx", index=False)
+# Actualización menor
